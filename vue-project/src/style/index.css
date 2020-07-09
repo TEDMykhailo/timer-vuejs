@@ -484,11 +484,500 @@
   }
 }
 
-/*@media (max-width: 992px) and (min-width: 768px) {*/
-/*  .first-screen{}*/
-/*  .second-screen{}*/
-/*  .footer{}*/
-/*}*/
+@media (max-width: 992px) and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin: auto;
+    background-color: #F2F2F2;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .first-screen {
+    position: relative;
+    background-image: url("../assets/Background.svg");
+    height: 720px;
+  }
+
+  .first-screen .nav-panel {
+    position: absolute;
+    height: 40px;
+    left: 135px;
+    top: 25px;
+  }
+
+  .first-screen .nav-panel .company {
+    position: absolute;
+    width: 118px;
+    height: 27px;
+    /*top: 30px;*/
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+  }
+
+  .ferst-m-left {
+    margin-left: 120px;
+  }
+
+  .m-left {
+    margin-left: 31px;
+  }
+
+  .first-screen .nav-panel .nav-menu {
+    position: absolute;
+    width: 755px;
+    height: 20px;
+    left: 562px;
+    top: 5px;
+  }
+
+  .first-screen .nav-panel .free-button {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 488px;
+    border-radius: 6px;
+    top: -10px;
+    background-color: #FFFFFF;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #282B31;
+  }
+
+  .first-screen a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .app-starter {
+    position: absolute;
+    width: 555px;
+    height: 310px;
+    left: 135px;
+    top: 230px;
+  }
+
+  .tablet {
+    position: absolute;
+    width: 470px;
+    height: 708px;
+    left: 145px;
+    top: 480px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .text-bold-app {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+
+  .text-app {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+
+  .container-button {
+    margin-top: 37px;
+    margin-left: 75px;
+  }
+
+  .download {
+    background: linear-gradient(163.33deg, #FF8E64 0%, #FFE641 100%);
+    border-radius: 6px;
+    width: 167px;
+    height: 50px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+  }
+
+  .watch-video {
+    box-shadow: 0px 6px 12px rgba(40, 43, 49, 0.08);
+    width: 144px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+    color: #282B31;
+  }
+
+  .first-screen .first-screen-app-starter {
+
+  }
+
+  .second-screen {
+    margin-top: 550px;
+    width: 770px;
+    margin-left: 35px;
+  }
+
+  .text-header {
+    text-align: center;
+  }
+
+  .text-header-why {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 2px;
+  }
+
+  .text-header-why-do {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 2px;
+  }
+
+  .text-info {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #676C75;
+    margin-left: 100px;
+    margin-top: 17px;
+    width: 570px;
+    margin-bottom: 60px;
+  }
+
+  .list {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(32, 33, 39, 0.12);
+    border-radius: 12px;
+    width: 700px;
+  }
+
+  .input-create {
+    margin-top: 40px;
+    margin-left: 100px;
+
+    background: #F8F9FA;
+    border: 1px solid #E7E8EA;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    width: 305px;
+    height: 50px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    padding-left: 20px;
+
+    color: rgba(103, 108, 117, 0.7);
+  }
+
+  .m-left-20 {
+    margin-left: 20px;
+  }
+
+  .medium {
+    border: medium;
+  }
+
+  .color {
+    background: #E7E8EA;
+    height: 2px;
+    border-radius: 2px;
+    margin-top: 30px;
+  }
+
+  .i-timer {
+    width: 467px;
+    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .style-text-timer {
+    float: left;
+    width: 129px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+
+    color: #5586F2;
+  }
+
+  .m-top-25 {
+    margin-top: 35px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .style-timer {
+    background: #E7E8EA;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    width: 117px;
+    height: 50px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+
+    margin-left: 59px;
+    padding: 14px 24px 13px 24px;
+
+    color: #676C75;
+  }
+
+  .style-timer-pause {
+    background: rgba(255, 72, 118, 0.15);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    width: 117px;
+    height: 50px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+
+    margin-left: 59px;
+    padding: 14px 24px 13px 24px;
+
+    color: #676C75;
+  }
+
+  .on-stop {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(135deg, #7956EC 0%, #2FB9F8 100%);
+    border-radius: 25px;
+    margin-left: 42px;
+  }
+
+  .on-delete {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background: linear-gradient(135deg, #F23673 0%, #FCA069 100%);
+    border-radius: 6px;
+  }
+
+  .on-play {
+    height: 50px;
+    width: 50px;
+    margin-left: 42px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #009FC5 0%, #3CECB0 100%);
+  }
+
+  .mdi-pause::before {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  .mdi-delete::before {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  .list-group {
+
+  }
+
+  .mdi-play::before {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  .footer {
+    background: #FFFFFF;
+    border: 1px solid #E7E8EA;
+    width: 768px;
+    height: 90px;
+  }
+
+  .footer-app {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #282B31;
+    margin-left: 50px;
+    margin-top: 31px;
+    float: left;
+  }
+
+  .footer-by {
+    margin-left: 150px;
+    margin-top: 27px;
+    float: left;
+    width: 186px;
+    text-align: center;
+  }
+
+  .text-created {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+
+    color: #999EA8;
+  }
+
+  .heart {
+    width: 12px;
+    height: 11px;
+
+    color: #FF4876;
+  }
+
+  .name-create {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    white-space: nowrap;
+
+    color: #282B31;
+  }
+
+  .mdi-heart::before {
+    font-size: 10px !important;
+  }
+
+  .cooop {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+
+    text-align: center;
+
+    color: #999EA8;
+  }
+
+  .icon-ccc {
+    margin-left: 600px;
+    margin-top: 25px;
+  }
+
+  .twitter {
+    width: 40px !important;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E8EA;
+    box-sizing: border-box;
+    border-radius: 6px 0px 0px 6px;
+    float: left;
+  }
+
+  .facebook {
+    width: 40px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E8EA;
+    box-sizing: border-box;
+    margin-left: -4px;
+    float: left;
+  }
+
+  .instagram {
+    width: 40px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E8EA;
+    box-sizing: border-box;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -5px;
+    float: left;
+  }
+
+  .mdi-twitter::before {
+    color: #B9BDC3 !important;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .mdi-facebook::before {
+    color: #B9BDC3 !important;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .mdi-instagram::before {
+    color: #B9BDC3 !important;
+    font-size: 13px;
+    padding: 10px;
+  }
+}
 
 /*@media (min-width: 768px) {*/
 /*  .first-screen{}*/
