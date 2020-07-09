@@ -1,16 +1,18 @@
 @media (min-width: 992px) {
-  body{
+  body {
     width: 1440px;
     margin: auto;
   }
-  .first-screen{
+
+  .first-screen {
+    position: relative;
     background-image: url("../assets/Background.svg");
-    height: 900px;
+    height: 720px;
   }
 
   .first-screen .nav-panel {
-    position: relative;
-    width: 1170px;
+    position: absolute;
+    /*width: 1170px;*/
     height: 40px;
     left: 135px;
     top: 25px;
@@ -31,28 +33,52 @@
     color: #FFFFFF;
   }
 
+  .ferst-m-left {
+    margin-left: 120px;
+  }
+
+  .m-left {
+    margin-left: 31px;
+  }
+
   .first-screen .nav-panel .nav-menu {
     position: absolute;
-    width: 328px;
+    width: 755px;
     height: 20px;
-    left: 815px;
-    /*top: 35px;*/
+    left: 562px;
+    top: 5px;
   }
 
   .first-screen .nav-panel .free-button {
     position: absolute;
     width: 132px;
     height: 40px;
-    left: 1173px;
-    top: 25px;
+    left: 488px;
+    border-radius: 6px;
+    top: -10px;
+    background-color: #FFFFFF;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #282B31;
   }
 
   .first-screen a {
     text-decoration: none;
   }
 
-  .second-screen{}
-  .footer{}
+  .second-screen {
+  }
+
+  .footer {
+  }
 }
 
 /*@media (max-width: 992px) and (min-width: 768px) {*/
