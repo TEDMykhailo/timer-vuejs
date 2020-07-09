@@ -1,12 +1,19 @@
 <template>
   <div>
     <input
+      class="input-create"
       @input="newTimer = $event.target.value"
       v-on:keyup.13="addTimer"
       type="text"
       placeholder="Create a new timer..."
     />
-    <input type="submit" @click="addTimer" value="submit"/>
+    <input
+      class="download m-left-20 medium"
+      type="submit"
+      @click="addTimer"
+      value="Create Timer"/>
+
+    <div class="color"></div>
   </div>
 </template>
 

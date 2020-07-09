@@ -1,11 +1,20 @@
 <template>
-  <div>
-    <div class="create">
-      <create-timer @on-new-timer="addTimer($event)"/>
+  <div class="second-screen">
+    <div class="text-header">
+      <span class="text-header-why">Why&nbsp;</span>
+      <span class="text-header-why-do">do we use it?</span>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <ul class="list-group">
+    <div class="text-info">
+      <span>
+        This sounded nonsense to Alice, so she said nothing, but set off at once toward the Red Queen. To her surprise, she lost sight of her in a moment.
+      </span>
+    </div>
+    <div class="list">
+      <div class="create">
+        <create-timer @on-new-timer="addTimer($event)"/>
+      </div>
+      <div class="m-top-25">
+        <div class="list-group">
           <timer
             v-for="(timer, index) in timers"
             :someTimer="timer"
@@ -18,7 +27,7 @@
             @on-stop="stopTimer(timer)"
             @on-play="playTimer(timer)"
           />
-        </ul>
+        </div>
       </div>
     </div>
   </div>
